@@ -1,0 +1,18 @@
+ORIENTAÇÃO A IBJETOS NO PHP
+
+Pessoa
+atributos {
+    nome
+    idade 
+    peso 
+
+
+metodos 
+    crescer()
+    comer
+}
+
+
+Private = fica apenas disponivel dentro da class
+
+this->   = chamar dentro da call
