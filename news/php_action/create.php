@@ -19,6 +19,7 @@ if(isset($_POST['btn-cadastrar'])){
 
     $sql = "INSERT INTO news (nome, noticia, categoria) VALUES ('$nome', '$noticia', '$categoria')";
 
+    
     if(mysqli_query($connect, $sql)){
         $_SESSION['mensagem'] = "Cadastrado com sucesso!";
         header('Location: ../home.php');
@@ -27,5 +28,4 @@ if(isset($_POST['btn-cadastrar'])){
         $_SESSION['mensagem'] = "Erro ao cadastrar";
         header('Location: ../home.php');
     }
-
 }

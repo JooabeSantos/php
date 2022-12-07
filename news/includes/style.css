@@ -7,13 +7,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    padding: 0;
 }
 
 
- #conteudo{
-  display: flex;
-  flex-direction: row;
-
+#conteudo{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
  }
  .col{
   width: 14vw;
