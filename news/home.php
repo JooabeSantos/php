@@ -68,7 +68,7 @@ include_once 'includes/message.php';
           <p><?php echo $dados['noticia']; ?></p>
         </div>
         <div class="card-action center">
-          <a href="#">Acessar</a>
+          <a href="details.php">Acessar</a>
         </div>
       </div>
     </div>
